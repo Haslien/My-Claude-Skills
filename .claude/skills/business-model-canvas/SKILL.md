@@ -108,6 +108,6 @@ Always summarize with a fully filled-in canvas table:
 ## Source material
 
 Based on: *Business Model Generation*, Alexander Osterwalder & Yves Pigneur, Wiley 2010.
-See `Documents/Business-Model-Generation_By_Alexander-Osterwalder.pdf` for the full reference.
+Full book available at `.claude/skills/business-model-canvas/Business-Model-Generation_By_Alexander-Osterwalder.pdf` — use the Read tool with `pages:` parameter to look up specific sections.
 
 The 9 building blocks are described on pages 20–41 of the book.

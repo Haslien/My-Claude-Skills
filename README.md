@@ -8,13 +8,13 @@ The list grows as new patterns become repeatable.
 
 | Skill | What it does |
 |---|---|
-| `claude-md-writer` | Creates or audits `CLAUDE.md` files — the context file that bootstraps Claude into a codebase |
-| `skill-writer` | Guides you through writing new skills |
-| `frontend-design` | Builds frontend components with real design quality, not generic AI output |
-| `stack-setup` | Scaffolds a monorepo: React+Vite, React Native+Expo, Fastify, PostgreSQL, MongoDB, Qdrant |
-| `type-safety` | Enforces strict typing, Zod schemas, and ESLint/Pyright config across a monorepo |
-| `business-model-canvas` | Walks through a Business Model Canvas using the Osterwalder framework |
-| `humanizer` | Rewrites AI-sounding text so it reads like a person wrote it |
+| [`claude-md-writer`](.claude/skills/claude-md-writer/SKILL.md) | Creates or audits `CLAUDE.md` files — the context file that bootstraps Claude into a codebase |
+| [`skill-writer`](.claude/skills/skill-writer/SKILL.md) | Guides you through writing new skills |
+| [`frontend-design`](.claude/skills/frontend-design/SKILL.md) | Builds frontend components with real design quality, not generic AI output |
+| [`stack-setup`](.claude/skills/stack-setup/SKILL.md) | Scaffolds a monorepo: React+Vite, React Native+Expo, Fastify, PostgreSQL, MongoDB, Qdrant |
+| [`type-safety`](.claude/skills/type-safety/SKILL.md) | Enforces strict typing, Zod schemas, and ESLint/Pyright config across a monorepo |
+| [`business-model-canvas`](.claude/skills/business-model-canvas/SKILL.md) | Walks through a Business Model Canvas using the Osterwalder framework |
+| [`humanizer`](.claude/skills/humanizer/SKILL.md) | Rewrites AI-sounding text so it reads like a person wrote it |
 
 ## How it works
 
