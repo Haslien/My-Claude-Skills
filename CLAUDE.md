@@ -22,6 +22,7 @@ A personal collection of Agent Skills for Claude Code. Each skill encodes a repe
 | `type-safety` | Enforces strict typing and Zod schemas |
 | `business-model-canvas` | Walks through a Business Model Canvas |
 | `humanizer` | Rewrites AI-sounding text |
+| `index-content` | Creates a navigable `index.md` for a folder of documents or code |
 
 ## Adding or editing skills
 
