@@ -15,6 +15,7 @@ The list grows as new patterns become repeatable.
 | [`type-safety`](.claude/skills/type-safety/SKILL.md) | Enforces strict typing, Zod schemas, and ESLint/Pyright config across a monorepo |
 | [`business-model-canvas`](.claude/skills/business-model-canvas/SKILL.md) | Walks through a Business Model Canvas using the Osterwalder framework |
 | [`humanizer`](.claude/skills/humanizer/SKILL.md) | Rewrites AI-sounding text so it reads like a person wrote it |
+| [`cybersecurity`](.claude/skills/cybersecurity/SKILL.md) | Structured security audit — secrets in git, auth flaws, injection, GDPR, CVE scan, and more |
 
 ## How it works
 
