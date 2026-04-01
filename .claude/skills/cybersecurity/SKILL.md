@@ -240,7 +240,7 @@ Pay special attention to: web frameworks (fastify, express, django), image proce
 
 ### 9. Supply chain attacks via unpinned dependencies
 
-Popular packages get compromised. A malicious actor gains access to a maintainer's npm account and publishes a patch version containing a Remote Access Trojan. Every project using `"^x.y.z"` silently installs it on the next `npm install` — on developer machines, CI servers, and production deployments. Real examples: `event-stream` (2018), `colors`/`faker` (2022), `axios` (2025).
+Popular packages get compromised. A malicious actor gains access to a maintainer's npm account and publishes a patch version containing a Remote Access Trojan. Every project using `"^x.y.z"` silently installs it on the next `npm install` — on developer machines, CI servers, and production deployments. Real examples: `event-stream` (2018), `colors`/`faker` (2022), `axios` (2026).
 
 **The three symbols that enable this attack:**
 ```
