@@ -23,6 +23,7 @@ A personal collection of Agent Skills for Claude Code. Each skill encodes a repe
 | `business-model-canvas` | Walks through a Business Model Canvas |
 | `humanizer` | Rewrites AI-sounding text |
 | `index-content` | Creates a navigable `index.md` for a folder of documents or code |
+| `typography` | Professional type systems: font selection, scale, spacing, and micro-typography |
 
 ## Adding or editing skills
 
