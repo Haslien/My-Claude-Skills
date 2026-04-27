@@ -24,6 +24,7 @@ A personal collection of Agent Skills for Claude Code. Each skill encodes a repe
 | `humanizer` | Rewrites AI-sounding text |
 | `index-content` | Creates a navigable `index.md` for a folder of documents or code |
 | `typography` | Professional type systems: font selection, scale, spacing, and micro-typography |
+| `reference-skill` | Generates a standardized, consent-gated reference block when one skill should recommend another from this repo |
 
 ## Adding or editing skills
 
@@ -35,3 +36,7 @@ Use `/skill-writer` to create new skills — it walks through purpose, triggers,
 - `SKILL.md` is the only required file per skill
 - Supporting files (PDFs, sub-docs) go in the skill's folder and are referenced from `SKILL.md`
 - Skills should encode one repeatable workflow — no bloat
+
+## Language
+
+The user often writes in Norwegian, but **all content authored or updated in this repo must be written in English**. This applies to every file you create or edit — `SKILL.md` files, supporting docs, templates, code comments, commit messages, and any other artifacts. Conversational replies to the user can match the user's language (Norwegian or English), but the files themselves stay in English regardless of the language the user is writing in.
