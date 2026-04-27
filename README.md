@@ -16,6 +16,10 @@ The list grows as new patterns become repeatable.
 | [`business-model-canvas`](.claude/skills/business-model-canvas/SKILL.md) | Walks through a Business Model Canvas using the Osterwalder framework |
 | [`humanizer`](.claude/skills/humanizer/SKILL.md) | Rewrites AI-sounding text so it reads like a person wrote it |
 | [`cybersecurity`](.claude/skills/cybersecurity/SKILL.md) | Structured security audit — secrets in git, auth flaws, injection, GDPR, CVE scan, and more |
+| [`index-content`](.claude/skills/index-content/SKILL.md) | Creates a navigable `index.md` for a folder of documents or code |
+| [`typography`](.claude/skills/typography/SKILL.md) | Professional type systems — font selection, scale, line-height, tracking, micro-typography |
+| [`slides`](.claude/skills/slides/SKILL.md) | Designs presentation decks. Synthesises Reynolds, Duarte, and Knaflic. Asks first whether you want a written plan for PowerPoint/Keynote, or a code-built React SPA deck for high-stakes pitches |
+| [`reference-skill`](.claude/skills/reference-skill/SKILL.md) | Generates a standardized, consent-gated reference block when one skill should recommend installing another from this repo |
 
 ## How it works
 

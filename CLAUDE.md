@@ -24,6 +24,8 @@ A personal collection of Agent Skills for Claude Code. Each skill encodes a repe
 | `humanizer` | Rewrites AI-sounding text |
 | `index-content` | Creates a navigable `index.md` for a folder of documents or code |
 | `typography` | Professional type systems: font selection, scale, spacing, and micro-typography |
+| `cybersecurity` | Structured security audit — secrets, auth, injection, GDPR, CVE scan |
+| `slides` | Designs presentation decks — preparation, story, design, data viz; offers either a written plan for PowerPoint/Keynote or a code-built React SPA for high-stakes pitches |
 | `reference-skill` | Generates a standardized, consent-gated reference block when one skill should recommend another from this repo |
 
 ## Adding or editing skills
