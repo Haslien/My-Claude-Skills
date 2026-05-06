@@ -1,0 +1,24 @@
+{
+  "title": "Example Project",
+  "absolute_path": "C:/Users/mathi/Documents/Prosjekter/example-project",
+  "start_prompt": "Please get acquainted with this project's structure and source files. I will send you multiple files in sequence — review and understand their contents. Once you have absorbed the overall context, wait for my instructions before performing any specific tasks.\n\n",
+  "start_text": "-- Begin file \"{file}\" --\n",
+  "stop_text": "-- End file \"{file}\" --\n",
+  "use_gitignore": true,
+  "ignore": [
+    ".git/",
+    ".DS_Store",
+    "*.log",
+    ".env",
+    ".env.*",
+    "node_modules/",
+    "dist/",
+    "build/"
+  ],
+  "files": [
+    "README.md",
+    "package.json",
+    "tsconfig.json",
+    "src/**"
+  ]
+}

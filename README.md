@@ -20,10 +20,13 @@ The list grows as new patterns become repeatable.
 | [`typography`](.claude/skills/typography/SKILL.md) | Professional type systems — font selection, scale, line-height, tracking, micro-typography |
 | [`slides`](.claude/skills/slides/SKILL.md) | Designs presentation decks. Synthesises Reynolds, Duarte, and Knaflic. Asks first whether you want a written plan for PowerPoint/Keynote, or a code-built React SPA deck for high-stakes pitches |
 | [`reference-skill`](.claude/skills/reference-skill/SKILL.md) | Generates a standardized, consent-gated reference block when one skill should recommend installing another from this repo |
+| [`project-context-compiler`](.claude/skills/project-context-compiler/SKILL.md) | Bundles every relevant file in a project into a single `.txt` for pasting into an LLM. Self-contained — ships with `compile.py`, per-stack ignore rules, and optional layer scoping |
 
 ## How it works
 
 Skills are markdown files that inject structured instructions into a Claude Code conversation when triggered. They live in `.claude/skills/` and activate automatically when Claude recognizes the right context, or explicitly via `/skill-name`.
+
+Most skills are pure instruction. A few — like [`project-context-compiler`](.claude/skills/project-context-compiler/SKILL.md) — bundle a runnable script and working folders so Claude can execute the workflow end-to-end without any external repo.
 
 To use these: clone the repo and point Claude Code at it, or copy individual skill folders into your own project's `.claude/skills/` directory.
 
