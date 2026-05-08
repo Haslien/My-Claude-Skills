@@ -21,6 +21,7 @@ The list grows as new patterns become repeatable.
 | [`slides`](.claude/skills/slides/SKILL.md) | Designs presentation decks. Synthesises Reynolds, Duarte, and Knaflic. Asks first whether you want a written plan for PowerPoint/Keynote, or a code-built React SPA deck for high-stakes pitches |
 | [`reference-skill`](.claude/skills/reference-skill/SKILL.md) | Generates a standardized, consent-gated reference block when one skill should recommend installing another from this repo |
 | [`project-context-compiler`](.claude/skills/project-context-compiler/SKILL.md) | Bundles every relevant file in a project into a single `.txt` for pasting into an LLM. Self-contained — ships with `compile.py`, per-stack ignore rules, and optional layer scoping |
+| [`context-architect`](.claude/skills/context-architect/SKILL.md) | Maintains a layered navigation map (`CONTEXT.md` files at every meaningful folder, each listing 3–5 routes out) so any AI agent can travel from project overview to a specific file in 2–3 clicks. Auto-fires on every structural change to keep the map fresh |
 
 ## How it works
 

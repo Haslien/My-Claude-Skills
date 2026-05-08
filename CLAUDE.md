@@ -30,6 +30,7 @@ Most skills are markdown only. A few (like `project-context-compiler`) bundle a 
 | `slides` | Designs presentation decks — preparation, story, design, data viz; offers either a written plan for PowerPoint/Keynote or a code-built React SPA for high-stakes pitches |
 | `reference-skill` | Generates a standardized, consent-gated reference block when one skill should recommend another from this repo |
 | `project-context-compiler` | Compiles a project into a single `.txt` for LLM context — bundles `compile.py`, configs in `projects/`, generated output in `output/` (gitignored) |
+| `context-architect` | Maintains a layered navigation map (root + per-folder `CONTEXT.md` routing files) so any AI agent can travel from project overview to a specific file in 2–3 clicks. Auto-fires on every structural change — new file, new folder, move, restructure — to keep the map fresh. |
 
 ## Adding or editing skills
 

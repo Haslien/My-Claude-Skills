@@ -1,9 +1,17 @@
 ---
 name: index-content
-description: Index and summarize a directory into an index.md file. Works for both document folders and code directories. Use when the user wants to create an overview of files, says "indekser", "indeksere", "index this folder", "lag en oversikt", or wants a summary index of a folder.
+description: Produce a flat `index.md` summary of one folder (documents or code). Largely superseded by `context-architect` for AI-navigation work — this skill remains useful only for one-shot folder summaries that are not part of a larger navigation tree. Trigger phrases "indekser", "indeksere", "index this folder", "lag en oversikt", "summary index of a folder".
 ---
 
 # Content Indexer
+
+> **Read first — this skill has been superseded for most uses.**
+>
+> If the goal is to make a project navigable for an AI agent, use [`context-architect`](../context-architect/SKILL.md) instead. It produces layered `CONTEXT.md` routing maps that auto-fire on every structural change and keep the project navigable end-to-end. A flat `index.md` describes one folder; a `CONTEXT.md` tree routes the agent through the whole project in 2–3 clicks.
+>
+> Use `index-content` only when the goal is a **one-shot, standalone summary of a single folder** — for example a folder of meeting notes, a static document collection that does not need to integrate into a larger map, or a quick human-readable overview where AI navigation is not the point. For everything else, prefer `context-architect`.
+>
+> A `## Recommended skill` block at the bottom of this file shows how to install `context-architect` if it is not already present.
 
 Create and maintain an `index.md` that summarizes all files in a directory. Works for two modes:
 
@@ -241,3 +249,31 @@ The final `index.md` serves two audiences:
 - In code mode, exported symbols and module purpose must be clear so an agent knows what to import or read
 
 Think of `index.md` as a routing layer: it should allow an AI agent to confidently say "I need files A and C, I can skip B and D" — without opening any of them first.
+
+---
+
+## Recommended skill: `context-architect`
+
+**What it does:** Maintains a layered `CONTEXT.md` navigation map at every meaningful folder, each listing 3–5 routes out — so any AI agent reaches a specific file in 2–3 clicks, and the map auto-refreshes on every structural change. This is the recommended approach for AI-navigation work; `index-content` is now reserved for one-shot, standalone folder summaries.
+
+**Author:** [@Haslien](https://github.com/Haslien) on GitHub
+
+**Source:** https://github.com/Haslien/My-Claude-Skills/tree/main/.claude/skills/context-architect
+
+**Install (project-scoped, committed to your repo):**
+```bash
+git clone --depth=1 https://github.com/Haslien/My-Claude-Skills.git /tmp/haslien-skills
+mkdir -p .claude/skills
+cp -r /tmp/haslien-skills/.claude/skills/context-architect .claude/skills/
+rm -rf /tmp/haslien-skills
+```
+
+**Or personal (available across all your projects):**
+```bash
+git clone --depth=1 https://github.com/Haslien/My-Claude-Skills.git /tmp/haslien-skills
+mkdir -p ~/.claude/skills
+cp -r /tmp/haslien-skills/.claude/skills/context-architect ~/.claude/skills/
+rm -rf /tmp/haslien-skills
+```
+
+**Want me to install this skill now?** Reply `yes` (project), `yes personal`, or `no`.
