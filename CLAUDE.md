@@ -31,6 +31,7 @@ Most skills are markdown only. A few (like `project-context-compiler`) bundle a 
 | `reference-skill` | Generates a standardized, consent-gated reference block when one skill should recommend another from this repo |
 | `project-context-compiler` | Compiles a project into a single `.txt` for LLM context — bundles `compile.py`, configs in `projects/`, generated output in `output/` (gitignored) |
 | `context-architect` | Maintains a layered navigation map (root + per-folder `CONTEXT.md` routing files) so any AI agent can travel from project overview to a specific file in 2–3 clicks. Auto-fires on every structural change — new file, new folder, move, restructure — to keep the map fresh. |
+| `index-all-md-files` | Builds a single dated index of every `.md` file in a repo (sorted newest-modified first), then iteratively reads each file and fills in a one-line description — read → update → next, never batched, so context stays focused per document |
 
 ## Adding or editing skills
 
